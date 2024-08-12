@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:Urbanist, system-ui, Avenir, Helvetica, 'Arial', Roboto, Oxygen, Ubuntu, sans-serif;
+    color-scheme: light dark;
+}
+
+:root{
+    --bg-color:#f4f3ff;
+    --btn-color:#646cff;
+    --dark-color:#242424;
+    --helper-color:#99b9ff;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+/* react toastify */
+.toastBody {
+    font-family: "Atlas Grotesk Web", Arial, Helvetica, sans-serif;
+    font-size: 1.7rem ;
+  }
+
+h1{
+    font-size: 9.4rem;
+    line-height: 1.1;
+    font-weight: bold;
+}
+
+li{
+    list-style: none;
+}
+a{
+    font-weight: 500;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    color: var(--btn-color);
+    text-decoration: inherit;
+
+}
+
+p, li, label, input, textarea{
+    font-size: 1.8rem;
+    line-height: 1.56;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.06rem;
+}
+
+.container{
+    /* max-width: 140rem; */
+    padding: 4.2rem 2.4rem;
+    margin: 0 auto;
+}
+
+.rowflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    flex-wrap: wrap;
+}
+.colflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    row-gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+
+
+
+
+/* ************* Admin pages*********** */
+
+
+.card {
+      position: relative;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   min-width: 0;
+   word-wrap: break-word;
+   background-color: #fff;
+   background-clip: border-box;
+   border: 0px solid transparent;
+   border-radius: 0px;
+}
+
+
+.card-body {
+   -webkit-box-flex: 1 !important;
+   -ms-flex: 1 1 auto !important;
+   flex: 1 1 auto !important;
+   padding: 1.25rem !important;
+}
+
+.card .card-title {
+   position: relative !important;
+   font-weight: 600 !important;
+   margin-bottom: 10px !important;
+}
+
+
+.table {
+   width: 100% !important;
+   max-width: 100% !important;
+   margin-bottom: 1rem !important;
+   background-color: transparent !important;
+}
+
+
+
+.table th, .table thead th {
+   font-weight: bolder !important;
+   font-size: 2em;
+}
+
+
+.table thead th {
+   vertical-align: bottom !important;
+   border-bottom: 2px solid #dee2e6 !important;
+}
+
+
+.table th {
+   padding: 1rem !important;
+   vertical-align: top !important;
+   border-top: 1px solid #dee2e6 !important;
+}
+
+
+.table th, .table thead th {
+   font-weight: 500 !important;
+}
+
+
+th {
+   text-align: inherit !important;
+}
+
+
+.m-b-20 {
+   margin-bottom: 20px !important; 
+}
+
+td{
+    font-size: 1.5em;
+}
+
+
+
+
+
