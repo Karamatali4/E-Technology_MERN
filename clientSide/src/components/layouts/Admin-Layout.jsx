@@ -6,13 +6,15 @@ function AdminLayout() {
     <>
     
     <h1>Admin Dashboard</h1>
-    <Adminmenu/>
     <div className="container-fluid">
                       
-                    <div className="row">
-                    <div className="col col-12 col-md-2">
+                    <div className="row" >
+
+                    <div className="col col-12 col-md-12" >
+    <Adminmenu/>
 
                     </div>
+                    
                 </div>
 
                    </div> 
