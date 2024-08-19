@@ -1,8 +1,7 @@
 
 
 const mongoose = require("mongoose");
-// user:kimiali
-// pass: kimi786786786
+
 const URL = `mongodb+srv://${process.env.USERNAMEPASSWORD}@cluster0.qcpbsjv.mongodb.net/${process.env.MYDATABASE}?retryWrites=true&w=majority&appName=Cluster0`;
 // const URL = process.env.mongodburl
 
